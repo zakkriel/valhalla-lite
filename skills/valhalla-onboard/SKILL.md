@@ -52,6 +52,11 @@ For a public target, do not expose private external paths or instruction content
 use a clearly labeled redacted external path identifier and retain any exact
 mapping in private verification evidence. Repository-relative paths are preferred.
 
+Copy the following privacy clause unchanged into the installed AGENTS.md section;
+do not compress it into optional or alternative wording:
+
+> Read-log privacy: Never write a host-absolute private external path or private instruction contents into harness files, including entry purposes. Use repository-relative paths for target files. For external private reads, use a neutral identifier such as `[redacted external instruction A]`; `external:` followed by a literal private path is not redaction. Keep the exact identifier-to-path mapping only in the coding session's private work directory outside the target repository. Check each entry before appending it. Preserve auditability through that private mapping and the recorded read action.
+
 Create `harness/read-log.md` as the plain read log alongside the three context
 files. Record onboarding reads using the same honest distinction; do not backfill
 unsupported claims. Read logging is a required POC behavior, not a telemetry system.
