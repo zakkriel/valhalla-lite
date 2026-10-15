@@ -35,3 +35,5 @@ The [Product skill](skills/valhalla-product/SKILL.md) creates one compact produc
 After confirmation, a fresh task receives an ordinary feature-planning request. It discovers product context through AGENTS.md and produces a grounded user outcome and observable acceptance conditions before coding. This iteration stops at the brief; it does not add Engineering/Testing harnesses or implement an app feature. Evaluate the brief against confirmed facts and source evidence, not read counts.
 
 [Product-only proof and limits](https://github.com/zakkriel/testing-Repo-Valhalla/blob/main/PRODUCT-PROOF.md): an explicitly synthetic owner role answered material questions and separately confirmed updated understanding; a fresh task produced a grounded discount brief, and independent review evaluated its content and examples. No discount code or Engineering/Testing harness expansion was made. For acquisition evidence, use a new source checkout and cite the exact revision where the skill is tracked.
+
+Documentation: [mechanism, responsibilities and correction](docs/README.md).
