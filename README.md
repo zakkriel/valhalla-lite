@@ -23,3 +23,13 @@ Source acquisition → onboarding → fresh conversation → discovery → chang
 This is an agent-operated POC, not a packaged executable installer or automatic agent bootstrap. Keep the context plain and the workflow small. Do not publish sensitive traces, private external paths, or credentials in a public target.
 
 Read-log privacy is mandatory: the skill supplies an explicit clause that onboarding must copy unchanged into AGENTS.md. Public harness entries use repository-relative paths or neutral redacted external identifiers; exact external mappings stay in private session evidence outside the target. The [test repository proof](https://github.com/zakkriel/testing-Repo-Valhalla/blob/main/PROOF.md) preserves the original privacy failure and a fresh follow-up that logged safely without publication-time path substitution.
+
+## Product-only iteration
+
+To install the Product harness, ask your coding agent:
+
+> Onboard the Product harness from https://github.com/zakkriel/valhalla-lite into my repository using skills/valhalla-product/SKILL.md. Inspect the product, record material questions, and stop pending validation. Do not implement app features.
+
+The [Product skill](skills/valhalla-product/SKILL.md) creates one compact product understanding and a small validation handoff. It separates code observations from intended behavior, asks only material questions, updates understanding from answers, and requires confirmation before reuse. A disclosed test-owner fixture can validate a synthetic product; it never substitutes for a real owner's confirmation.
+
+After confirmation, a fresh task receives an ordinary feature-planning request. It discovers product context through AGENTS.md and produces a grounded user outcome and observable acceptance conditions before coding. This iteration stops at the brief; it does not add Engineering/Testing harnesses or implement an app feature. Evaluate the brief against confirmed facts and source evidence, not read counts.
