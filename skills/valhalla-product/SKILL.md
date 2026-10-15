@@ -12,7 +12,10 @@ Testing harness expansion.
 
 ## Install and understand
 
-Obtain the requested Valhalla Lite source checkout. Read the target's existing
+Obtain the requested Valhalla Lite source checkout. For an acquisition proof, use
+a new checkout acquired by this task from the actual GitHub URL. Verify the skill
+is tracked at the exact source revision before citing it; never cite an old HEAD
+for uncommitted instructions found in a prepared checkout. Read the target's existing
 instructions, product context and working-tree state before editing. Preserve
 existing instructions, unrelated edits and prior evidence. Reconcile an existing
 product document using source evidence rather than silently replacing its facts.
